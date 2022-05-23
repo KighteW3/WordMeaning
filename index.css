@@ -56,3 +56,17 @@
 		font-size: x-large;
 	}
 }
+
+@media only screen and (max-width: 650px){
+	.form-parent{
+		flex-direction: column;
+		width: 90%;
+	}
+	.text-input{
+		font-size: large;
+		width: 80%;
+	}
+	.submit-input{
+		font-size: large;
+	}
+}
